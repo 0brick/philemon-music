@@ -441,6 +441,44 @@ main {
 
 .footer p { margin: 0; }
 
+.footer .footer__contact { margin: 0 0 14px; }
+
+/* pill in the same glass family as the streaming list */
+.contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--fill);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: var(--text-2);
+  font-size: .8125rem;
+  letter-spacing: -.005em;
+  transition:
+    background var(--dur-2) var(--ease-emph),
+    border-color var(--dur-2) var(--ease-emph),
+    color var(--dur-2) var(--ease-emph);
+}
+
+.contact:hover {
+  background: var(--fill-hover);
+  border-color: rgba(255, 255, 255, .14);
+  color: var(--text);
+}
+
+.contact:active { background: var(--fill-press); }
+
+.contact__icon {
+  flex: 0 0 auto;
+  color: var(--text-3);
+  transition: color var(--dur-2) var(--ease-emph);
+}
+
+.contact:hover .contact__icon { color: var(--text-2); }
+
 /* ============================================================
    Reveal on scroll
    ============================================================ */

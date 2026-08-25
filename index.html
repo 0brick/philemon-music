@@ -63,6 +63,7 @@
       "@id": "https://philemon.music/#artist",
       "name": "Philemon",
       "url": "https://philemon.music/",
+      "email": "Philemon-music@postsnap.de",
       "image": "https://philemon.music/assets/close-cover.jpg"
     },
     {
@@ -231,7 +232,18 @@
       </div>
 
       <footer class="footer">
-        <p>© 2026 Philemon</p>
+        <!-- Plain and machine-readable on purpose: streaming platforms check
+             this address when verifying the artist account. -->
+        <p class="footer__contact">
+          <a class="contact" href="mailto:Philemon-music@postsnap.de">
+            <svg class="contact__icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="5.5" width="18" height="13" rx="3.2"/>
+              <path d="m4.2 8.6 6.9 4.6a1.6 1.6 0 0 0 1.8 0l6.9-4.6"/>
+            </svg>
+            <span>Philemon-music@postsnap.de</span>
+          </a>
+        </p>
+        <p>© 2026 Philemon Langhans</p>
       </footer>
     </section>
   </main>
