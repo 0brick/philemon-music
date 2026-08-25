@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://philemon.music/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://philemon.music/assets/close-cover.jpg</image:loc>
+      <image:title>Close — Philemon</image:title>
+      <image:caption>Cover artwork for the single “Close” by Philemon.</image:caption>
+    </image:image>
+  </url>
+</urlset>
